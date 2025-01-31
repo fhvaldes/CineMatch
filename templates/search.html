@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Buscar{% endblock %}
+
+{% block content %}
+    <h1>Resultados de búsqueda</h1>
+    {% if movies %}
+        <ul>
+            {% for movie in movies %}
+                <li>
+                    <a href="{% url 'movie_detail' movie.id %}">{{ movie.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No se encontraron resultados para tu búsqueda.</p>
+    {% endif %}
+{% endblock %}
