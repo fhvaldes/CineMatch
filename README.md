@@ -17,7 +17,7 @@ CineMatch is a Django-based web application that allows users to sign up, log in
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/fhvaldes31/CineMatch.git
+    git clone https://github.com/fhvaldes/CineMatch.git
     cd CineMatch
     ```
 
