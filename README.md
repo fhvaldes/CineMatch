@@ -1,4 +1,4 @@
-# CineMatch
+
 # CineMatch
 
 CineMatch is a Django-based web application that allows users to sign up, log in, view and update their profiles, search for movies, and get movie recommendations based on their preferred genre. It also includes an API to list all movies.
